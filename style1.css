@@ -1,0 +1,326 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 10px;
+    }
+    
+    li .a .button {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500px;
+        font-size: 15px;
+        color: rgb(243, 238, 238);
+        font: bold;
+    }
+    
+    header {
+        padding-left: 10px;
+        height: 30px;
+        width: 95%;
+        background-color: rgb(64, 63, 63);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10px;
+    }
+    
+    .nav_links {
+        list-style: none;
+    }
+    
+    .nav_links li {
+        display: inline-block;
+        padding: 0px 10px;
+    }
+    
+    .nav_links li a {
+        transition: all 0.5s ease 0s;
+    }
+    
+    .nav_links li a:hover {
+        color: rgb(210, 30, 30);
+    }
+    
+    .navbar {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    nav .Menu {
+        flex: 1;
+        text-align: right;
+    }
+    
+    nav ul {
+        display: inline-block;
+        list-style-type: none;
+    }
+    
+    nav .Menu ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #5555;
+    }
+    
+    .social-menu ul {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+    
+    .social-menu ul li .fa {
+        color: black;
+        font-size: 25px;
+        line-height: 50px;
+        transition: 0.5s;
+    }
+    
+    .social-menu ul li .fa:hover {
+        color: #ffffff;
+    }
+    
+    .social-menu ul li a {
+        position: relative;
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: white;
+        text-align: center;
+        transition: 0.5s;
+        transform: translate(0, 0px);
+        box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+    }
+    
+    .social-menu ul li a :hover {
+        transform: rotate(0deg) skew(0deg) translate(0, -10px);
+    }
+    
+    .social-menu ul li:nth-child(1) a:hover {
+        background-color: antiquewhite;
+    }
+    
+    .social-menu ul li:nth-child(2) a:hover {
+        background-color: rgb(232, 96, 223);
+    }
+    
+    .social-menu ul li:nth-child(3) a:hover {
+        background-color: rgb(215, 250, 222);
+    }
+    
+    .social-menu ul li:nth-child(4) a:hover {
+        background-color: rgb(121, 99, 231);
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    .app-logo {
+        margin-top: 20px;
+    }
+    
+    .app-logo img {
+        width: 140px;
+    }
+    
+    .footer hr {
+        border: none;
+        background: #b5b5;
+        height: 1px;
+        margin: 20px 0;
+    }
+    
+    .Copyright {
+        text-align: center;
+    }
+    
+    .menu-icon {
+        width: 28px;
+        margin-left: 20px;
+        display: none;
+    }
+    
+    .social-menu ul {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+    
+    .social-menu ul li {
+        list-style: none;
+        margin: 0 10px;
+    }
+    
+    .social-menu ul li .fa {
+        color: #000000;
+        font-size: 25px;
+        line-height: 50px;
+        transition: .5s;
+    }
+    
+    .social-menu ul li .fa:hover {
+        color: #ffffff;
+    }
+    
+    .social-menu ul li a {
+        position: relative;
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: rgb(15, 14, 14);
+        text-align: center;
+        transition: 0.5s;
+        transform: translate(0, 0px);
+        box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+    }
+    
+    .social-menu ul li a:hover {
+        transform: rotate(0deg) skew(0deg) translate(0, -10px);
+    }
+    
+    .social-menu ul li:nth-child(1) a:hover {
+        background-color: #3b5999;
+    }
+    
+    .social-menu ul li:nth-child(2) a:hover {
+        background-color: #55acee;
+    }
+    
+    .social-menu ul li:nth-child(3) a:hover {
+        background-color: #e4405f;
+    }
+    
+    .social-menu ul li:nth-child(4) a:hover {
+        background-color: #cd201f;
+    }
+    
+    .social-menu ul li:nth-child(5) a:hover {
+        background-color: #0077B5;
+    }
+    
+    @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    body {
+        padding-left: 30px;
+        display: grid;
+        height: 100%;
+        width: 100%;
+        place-items: center;
+        background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    }
+    
+    .wrapper .button {
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        float: left;
+        margin: 0 5px;
+        overflow: hidden;
+        background: #fff;
+        border-radius: 50px;
+        cursor: pointer;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease-out;
+    }
+    
+    .wrapper .button:hover {
+        width: 200px;
+    }
+    
+    .wrapper .button .icon {
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        text-align: center;
+        border-radius: 50px;
+        box-sizing: border-box;
+        line-height: 60px;
+        transition: all 0.3s ease-out;
+    }
+    
+    .wrapper .button:nth-child(1):hover .icon {
+        background: #4267B2;
+    }
+    
+    .wrapper .button:nth-child(2):hover .icon {
+        background: #1DA1F2;
+    }
+    
+    .wrapper .button:nth-child(3):hover .icon {
+        background: #E1306C;
+    }
+    
+    .wrapper .button:nth-child(4):hover .icon {
+        background: #333;
+    }
+    
+    .wrapper .button:nth-child(5):hover .icon {
+        background: #ff0000;
+    }
+    
+    .wrapper .button .icon i {
+        font-size: 25px;
+        line-height: 60px;
+        transition: all 0.3s ease-out;
+    }
+    
+    .wrapper .button:hover .icon i {
+        color: #fff;
+    }
+    
+    .wrapper .button span {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 60px;
+        margin-left: 10px;
+        transition: all 0.3s ease-out;
+    }
+    
+    .wrapper .button:nth-child(1) span {
+        color: #4267B2;
+    }
+    
+    .wrapper .button:nth-child(2) span {
+        color: #1DA1F2;
+    }
+    
+    .wrapper .button:nth-child(3) span {
+        color: #E1306C;
+    }
+    
+    .wrapper .button:nth-child(4) span {
+        color: #333;
+    }
+    
+    .wrapper .button:nth-child(5) span {
+        color: #ff0000;
+    }
+    
+    .social-menu1 {
+        text-align: center;
+    }
+    
+    .social-menu1.wrapper.button.icon {
+        padding-left: 40px;
+        text-align: center;
+    }
